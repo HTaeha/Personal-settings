@@ -4,6 +4,7 @@ set autoindent " 자동 들여쓰기
 set scrolloff=2
 set wildmode=longest,list
 set ts=4 "tag select
+au Bufenter *.\(c\|cpp\|h\|py\|java\) set et
 set sts=4 "st select
 set sw=1 " 스크롤바 너비
 set autowrite " 다른 파일로 넘어갈 때 자동 저장
