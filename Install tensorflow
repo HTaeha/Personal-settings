@@ -23,6 +23,8 @@
   $ sudo apt-get install libfreetype6-dev
   $ sudo apt-get install libjpeg8-dev
   $ sudo pip install matplotlib
+ 
+ python3 -m pip install matplotlib
   
   
   tensorflow install without sudo
