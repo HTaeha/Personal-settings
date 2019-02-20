@@ -32,3 +32,12 @@
   http://mutux.com/2017/10/17/install-tensorflow-in-virtualenv.html
 ##. Another way
   https://github.com/derdav3/tf-sparql/wiki/TensorFlow-installation-on-Debian-SLURM-cluster-without-sudo
+  
+  matplotlib install without sudo
+ wget http://download.savannah.gnu.org/releases/freetype/freetype-2.5.3.tar.gz
+ tar xzf freetype-2.5.3.tar.gz
+ cd freetype-2.5.3
+ ./configure --prefix=/myhome/local --without-png
+ make && make install
+ export PKG_CONFIG_PATH=/myhome/local/lib/pkgconfig
+ pip install matplotlib --upgrade
