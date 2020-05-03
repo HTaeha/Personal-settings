@@ -100,3 +100,4 @@ colorscheme peachpuff
 
 let g:airline_powerline_fonts = 1
 nmap <F8> :NERDTreeToggle<CR>
+set term=xterm-256color
